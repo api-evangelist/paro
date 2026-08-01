@@ -1,0 +1,89 @@
+# llms.txt – Grants access to AI and LLM crawlers for indexable content discovery and integration.
+
+Sitemap: https://paro.ai/sitemap_index.xml
+
+User-agent: *
+Allow: /
+
+## Allow access to AI/LLM crawlers
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: ChatGPT-OpenAI
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: anthropic-ai
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: GoogleAI
+Allow: /
+
+User-Agent: CCBot
+Allow: /
+
+User-Agent: Common Crawl
+Allow: /
+
+User-Agent: Bytespider
+Allow: /
+
+User-Agent: FacebookExternalHit
+Allow: /
+
+User-Agent: facebookcatalog
+Allow: /
+
+User-Agent: HuggingFace
+Allow: /
+
+User-Agent: cohere-ai
+Allow: /
+
+User-Agent: Amazonbot
+Allow: /
+
+User-Agent: Applebot
+Allow: /
+
+User-Agent: YouBot
+Allow: /
+
+User-Agent: YandexBot
+Allow: /
+
+User-Agent: Sogou
+Allow: /
+
+User-Agent: NeevaAI
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Gemini
+Allow: /
+
+User-Agent: ZibraAI
+Allow: /
+
+User-Agent: Andi
+Allow: /
+
+User-Agent: KagiBot
+Allow: /
+
+User-Agent: phindbot
+Allow: /
+
+User-Agent: Writer
+Allow: /

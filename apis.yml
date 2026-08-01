@@ -1,8 +1,28 @@
 aid: paro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paro.png
 name: Paro
-description: Paro is a company surfaced as a portfolio company of 500-global, sierra-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Paro is an AI-powered professional services marketplace that connects businesses
+  and accounting firms with vetted, on-demand finance and accounting experts. Founded
+  in 2015 and headquartered in Chicago, Paro uses proprietary AI matching to pair
+  clients with the top 2% of finance professionals across 60+ industries and 250+
+  skill sets — spanning bookkeeping, fractional CFO and controller services, financial
+  planning and analysis, tax and compliance, and full-time recruiting. For accounting
+  firms it provides staff augmentation, busy-season support, and service-expansion
+  consulting. Paro operates a talent platform (app.paro.io) but does not publish a
+  public developer API; this profile captures its identity, content, and public web
+  surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/paro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Finance
+- Accounting
+- Marketplace
+- Talent
+- Fractional CFO
+- Bookkeeping
+- Professional Services
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/paro-domain-security.yml
 - type: Website
-  url: https://plateiq.com
+  url: https://paro.ai
+- type: About
+  url: https://paro.ai/about/
+- type: Blog
+  url: https://paro.ai/blog/
+- type: Resources
+  url: https://paro.ai/resources/
+- type: Support
+  url: https://paro.ai/how-paro-works/
+- type: SignUp
+  url: https://app.paro.io/registration/aigp-onboarding
+- type: Login
+  url: https://app.paro.io/
+- type: TermsOfService
+  url: https://paro.ai/platform-terms/
+- type: PrivacyPolicy
+  url: https://paro.ai/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/paro-ai
+- type: LLMsTxt
+  url: llms/paro-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
